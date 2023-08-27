@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carrois Gothic', sans-serif;
+    align-content: center;
+}
+
+
+
+.skills{
+    display: flex;
+    height: 100vh;
+    background-image: url('../Img/Skills.jpg');
+    background-size: cover;
+
+}
+
+.skills-content-container{
+    min-width: 100vh;
+    padding: 8rem 8%;
+}
+
+.skills-heading{
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills-content-container p{
+    text-align: center;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: 'Carrois Gothic', sans-serif;
+}
+
+.skills-bx{
+    background: #AFCBEC;
+    border-radius: 80px;
+    text-align: center;
+    padding-bottom: 60px 30px;
+    height: 300px;
+}
+
+.skills-content-container h2{ 
+    font-size: medium;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+.skills-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding-top: auto;
+  margin-top: 25%;
+}
+
+
+.skills-slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-slider .item img{
+    width: 50%;
+    margin: 0 auto 15px auto;
+}
+
+
+
+  
+  
+  
+  
+  

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carrois Gothic', sans-serif;
+}
+
+.about{
+    display: flex;
+    height: 100vh;
+    background-image: url('../Img/about-bg.jpg');
+    background-size: cover; 
+   
+}
+
+.about-content{
+    border: 1px; 
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.about-content p{
+    font-size: 22px;
+    margin: 15px 0;
+    max-width: 550px;
+    letter-spacing: 2px;
+}
+
+.about-content a{
+    color: white;
+    text-decoration: none;
+    background-color: #356093;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}

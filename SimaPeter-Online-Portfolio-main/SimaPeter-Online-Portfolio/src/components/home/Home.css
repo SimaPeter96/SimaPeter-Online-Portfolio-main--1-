@@ -1,0 +1,52 @@
+*{
+   
+    box-sizing: border-box;
+    font-family: 'Carrois Gothic', sans-serif;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+    background-image: url('../Img/Home-bg.jpg');
+    background-size: cover;
+}
+
+.home-content{
+   border: 1px; 
+   display: flex;
+   flex-direction: column;
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.home.content h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.home-content p{
+    font-size: 22px;
+    margin: 15px 0;
+    max-width: 550px;
+    letter-spacing: 2px;
+}
+.home-content a{
+    color: white;
+    text-decoration: none;
+    background-color: #356093;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+
+.jpg {
+    display: flex;
+    justify-content: right;
+    bottom: 0%;
+    padding-top: 5%;
+}

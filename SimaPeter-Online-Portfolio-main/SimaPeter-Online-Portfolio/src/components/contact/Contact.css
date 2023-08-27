@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carrois Gothic', sans-serif;
+}
+
+.contact{
+    display: flex;
+    height: 100vh;
+    background-image: url('../Img/Contact.jpg');
+    background-size: cover; 
+}
+
+.contact-content{
+    border: 1px; 
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content h2{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.contact-content h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
